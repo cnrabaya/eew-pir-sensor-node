@@ -1,0 +1,12 @@
+../Core/Src/main.c:65:6:EXTI15_10_IRQHandler	2
+../Core/Src/main.c:83:6:do_sys_config	1
+../Core/Src/main.c:278:6:reply_USART1	7
+../Core/Src/main.c:319:6:send_USART1	2
+../Core/Src/main.c:325:6:ESP_Init	4
+../Core/Src/main.c:344:6:ThingSpeak_Init	2
+../Core/Src/main.c:351:6:ESP_Send	2
+../Core/Src/main.c:394:6:GPIO_Init	1
+../Core/Src/main.c:428:6:IWDG_Init	1
+../Core/Src/main.c:438:6:IWDG_Refresh	1
+../Core/Src/main.c:444:5:main	4
+../Core/Src/main.c:472:6:delay	3
