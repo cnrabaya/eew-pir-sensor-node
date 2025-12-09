@@ -57,9 +57,9 @@ Before flashing the firmware, you must configure the Wi-Fi and ThingSpeak creden
     // Example replacement
     ESP_Init("MyWiFi_SSID", "MyWiFi_Password");
     ```
-4.  In the `ESP_Send()` function, find the `API_KEY` constant and replace it with your ThingSpeak channel's **Write API Key**.
+4.  In your .env file, find the `API_KEY` constant and replace it with your ThingSpeak channel's **Write API Key**.
     ```c
-    const char *API_KEY = "YOUR_THINGSPEAK_API_KEY";
+    API_KEY = "YOUR_THINGSPEAK_API_KEY"
     ```
 
 ### 2. Build and Flash
