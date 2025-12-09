@@ -7,7 +7,7 @@
 
 This project, created for the EEE 192 course, implements a standalone sensor node using an STM32F411RE microcontroller. The system reads data from three Passive Infrared (PIR) sensors and uploads their status to a ThingSpeak channel using an ESP8266 Wi-Fi module. It serves as a practical example of an IoT device for remote monitoring.
 
-The application is built using the STM32 HAL libraries and is developed within the STM32CubeIDE environment. It is heavily inspired by previous coursework from EEE 158.
+The application is developed within the STM32CubeIDE environment. It is heavily inspired by previous coursework from EEE 158.
 
 ## Features
 
