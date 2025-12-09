@@ -61,10 +61,6 @@ Before flashing the firmware, you must configure the Wi-Fi and ThingSpeak creden
     ```
 4.  In the `ESP_Send()` function, find the `API_KEY` constant and replace it with your ThingSpeak channel's **Write API Key**.
     ```c
-    // Original
-    const char *API_KEY = "2LRYDQGVGLRYT3TR";
-
-    // Example replacement
     const char *API_KEY = "YOUR_THINGSPEAK_API_KEY";
     ```
 
